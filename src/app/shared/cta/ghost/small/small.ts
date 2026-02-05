@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 
 @Component({
-  selector: 'app-small',
+  selector: 'cta-ghost-small',
   imports: [],
   templateUrl: './small.html',
   styleUrl: './small.css',
 })
-export class Small {
-
+export class GhostSmall {
+  text = input<string>();
 }
