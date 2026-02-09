@@ -1,7 +1,16 @@
-.main-container{
-    padding:0 80px;
-    background-color: #fff; 
+html,
+body,
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+/* .main-container{
+    padding:0 80px;
+    background-color: #fff;
+    height: 80px;
+} */
 
 .navbar-layer{
     position: absolute;
