@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Large } from './large';
+import { PrimaryLarge } from './large';
 
 describe('Large', () => {
-  let component: Large;
-  let fixture: ComponentFixture<Large>;
+  let component: PrimaryLarge;
+  let fixture: ComponentFixture<PrimaryLarge>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Large]
+      imports: [PrimaryLarge]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Large);
+    fixture = TestBed.createComponent(PrimaryLarge);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Small } from './small';
+import { GhostSmall } from './small';
 
-describe('Small', () => {
-  let component: Small;
-  let fixture: ComponentFixture<Small>;
+describe('GhostSmall', () => {
+  let component: GhostSmall;
+  let fixture: ComponentFixture<GhostSmall>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Small]
+      imports: [GhostSmall]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Small);
+    fixture = TestBed.createComponent(GhostSmall);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

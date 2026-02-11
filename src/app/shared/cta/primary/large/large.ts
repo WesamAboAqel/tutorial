@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 
 @Component({
-  selector: 'app-large',
+  selector: 'cta-primary-large',
   imports: [],
   templateUrl: './large.html',
   styleUrl: './large.css',
 })
-export class Large {
-
+export class PrimaryLarge {
+  text = input<string>();
 }
